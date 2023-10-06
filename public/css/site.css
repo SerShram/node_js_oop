@@ -1,0 +1,8 @@
+#message {
+    margin-bottom: 20px;
+    color: red;
+}
+
+nav ul > li {
+    display: inline-block;
+}
