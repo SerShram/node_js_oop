@@ -10,7 +10,7 @@ document.querySelector('#form-login-user').onsubmit = async function (event) {
 	const headers = new Headers();
 	headers.append("Content-Type", "application/x-www-form-urlencoded");
 
-	var urlencoded = new URLSearchParams();
+	const urlencoded = new URLSearchParams();
 	urlencoded.append("email", email);
 	urlencoded.append("pass", pass);
 
